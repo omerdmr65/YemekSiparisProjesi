@@ -1,0 +1,39 @@
+projeye askıda yemek sistemi tabloları eklendi.
+
+Eklenen tablolar:
+- AskidaBagis
+- AskidaKullanim
+- IhtiyacSahibiDogrulama
+
+ER diagram güncellendi ve tablolar arasındaki ilişkiler düzenlendi.
+
+Mock data çalışmaları yapıldı:
+- 10 kategori eklendi
+- 5 restoran eklendi
+- 20 müşteri eklendi
+- 5 kurye eklendi
+- 56 farklı ürün eklendi
+
+Ürünler restoran tiplerine uygun şekilde dağıtıldı:
+- Burger
+- Pizza
+- Döner
+- Tatlı
+- İçecek
+- Kahvaltı
+- Tavuk
+- Kebap
+- Makarna
+- Salata
+
+Soft delete mantığı için IsActive alanları kullanıldı.
+
+Sonraki aşamada:
+- Sipariş sistemi
+- Sipariş detayları
+- Ödeme işlemleri
+- Askıda kullanım hareketleri
+- 100 sipariş kaydı
+- JOIN, GROUP BY, SUBQUERY sorguları
+- Trigger, View ve Index yapıları
+eklenecektir.
