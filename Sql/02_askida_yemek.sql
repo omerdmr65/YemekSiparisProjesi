@@ -1,3 +1,6 @@
+USE YemekSiparisDB;
+GO
+
 CREATE TABLE IhtiyacSahibiDogrulama (
     DogrulamaID INT PRIMARY KEY IDENTITY(1,1),
 
