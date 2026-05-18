@@ -112,3 +112,15 @@ INSERT INTO Urun (RestoranID, KategoriID, UrunAdi, Aciklama, Fiyat, StokDurumu, 
 (5, 5, 'Meyve Suyu', 'Karýþýk meyve suyu', 40, 1, 1),
 (5, 4, 'Künefe', 'Hatay künefe', 110, 1, 1),
 (5, 4, 'Kazandibi', 'Sütlü tatlý', 70, 1, 1);
+
+
+INSERT INTO Urun (RestoranID, KategoriID, UrunAdi, Aciklama, Fiyat, StokDurumu, IsActive) VALUES
+
+(3, 8, 'Adana Kebap', 'Acýlý kebap', 170, 1, 1),
+(3, 8, 'Urfa Kebap', 'Acýsýz kebap', 165, 1, 1),
+
+(4, 9, 'Napoliten Makarna', 'Domates soslu makarna', 110, 1, 1),
+(4, 9, 'Kremalý Makarna', 'Kremalý penne', 120, 1, 1),
+
+(5, 10, 'Sezar Salata', 'Tavuklu salata', 90, 1, 1),
+(5, 10, 'Akdeniz Salata', 'Zeytinli salata', 85, 1, 1);
