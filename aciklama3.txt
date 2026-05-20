@@ -1,0 +1,11 @@
+Bu committe 04_transaction_data.sql ve 05_final_queries.sql dosyaları geliştirildi.
+
+04_transaction_data.sql dosyasında sipariş, sipariş detay, ödeme ve askıda yemek işlemlerine ait transaction verileri sisteme eklendi.
+
+05_final_queries.sql dosyasında veritabanının çalışmasını göstermek amacıyla JOIN, GROUP BY/HAVING, SUBQUERY ve LEFT JOIN sorguları oluşturuldu.
+
+Aktif restoran menülerini ve askıda yemek havuzu durumunu gösteren view yapıları projeye dahil edildi.
+
+Sipariş toplamını ve askıda bağış kullanımını otomatik yöneten trigger yapıları oluşturuldu.
+
+Veritabanı performansını artırmak amacıyla email ve sipariş tarihi alanları için index yapıları eklendi.
