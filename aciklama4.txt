@@ -1,0 +1,7 @@
+06_bulk_orders.sql dosyasında proje kapsamında sisteme toplu sipariş verileri eklenmiştir.
+
+WHILE döngüsü kullanılarak otomatik veri üretme mantığı uygulanmış ve toplam sipariş sayısı 100’e tamamlanmıştır. Oluşturulan siparişlere bağlı olarak SiparisDetay ve Odeme kayıtları da otomatik şekilde sisteme eklenmiştir.
+
+Verilerin daha gerçekçi görünmesi amacıyla müşteri, restoran ve şehir uyumu korunmuş, sipariş tarihleri ve toplam tutarlar rastgele üretilmiştir. Böylece sistemin sadece küçük test verileriyle değil, daha yüksek veri yoğunluğunda da çalışması sağlanmıştır.
+
+Bu bölüm projenin son geliştirme aşaması olarak hazırlanmış ve veritabanının performans, ilişki ve işlem mantığı daha geniş veri setleri üzerinde test edilmiştir. Ayrıca oluşturulan veriler sayesinde JOIN, GROUP BY, VIEW ve TRIGGER yapılarının daha kapsamlı şekilde çalışması sağlanmıştır.
